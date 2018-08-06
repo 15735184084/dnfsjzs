@@ -1,0 +1,65 @@
+#menu{
+    height: 80px;
+    width: 100%;
+
+
+}
+#menu-top{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-top1{
+    height: 55px;
+    width: 20%;
+
+}
+
+
+#menu-top11 {
+    height: 50px;
+    width: 50px;
+    background-image: url("../tupian/111.png");
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}
+#menu-bottom {
+    height: 25px;
+    width: 100%;
+}
+.menu-bottom1 {
+    height: 20px;
+    width: 20%;
+    color: gainsboro;
+    font-size: 16px;
+    font-weight: 100;
+}
+#menu-top12 {
+    height: 50px;
+    width: 50px;
+    background-image: url("../tupian/222.png");
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}
+#menu-top13 {
+    height: 50px;
+    width: 50px;
+    background-image: url("../tupian/333.png");
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}
+#menu-top14 {
+    height: 50px;
+    width: 50px;
+    background-image: url("../tupian/4444.png");
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}
+#menu-top15 {
+    height: 50px;
+    width: 50px;
+    background-image: url("../tupian/555.png");
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}

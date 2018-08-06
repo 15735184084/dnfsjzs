@@ -1,0 +1,51 @@
+#title{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: deepskyblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#title-left {
+    height: 50px;
+    width: 80px;
+
+    justify-content: center;
+    align-items: center;
+}
+#left-area {
+    height: 35px;
+    width: 35px;
+    background-image:url("../../tupian/目录.png ") ;
+    background-repeat: no-repeat ;
+    background-size: contain ;
+}
+
+#title-center {
+    height: 50px;
+    display: flex;
+    flex: 1;
+
+}
+.center-area {
+    height: 50px;
+    width: 33.33%;
+    color: white;
+    display: flex;
+}
+#title-right {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#right-area {
+    height: 40px;
+    width: 40px;
+    background-image:url("../图片.发现/扫一扫.png") ;
+    background-repeat: no-repeat ;
+    background-size: contain ;
+    justify-content: end ;
+}

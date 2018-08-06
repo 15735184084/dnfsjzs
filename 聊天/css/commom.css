@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:微软雅黑  ;
+}
+
+
+.border{
+    border: 1px  solid  darkred  ;
+}
+
+.xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.y-center {
+    display: flex;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}

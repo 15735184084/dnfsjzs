@@ -1,0 +1,11 @@
+#contianer {
+    position: fixed;
+    height:100%;
+    width:100%;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;
+    font-weight: 100;
+
+}

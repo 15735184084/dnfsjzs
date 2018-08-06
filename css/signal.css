@@ -1,0 +1,113 @@
+#signal {
+    width: 100%;
+    height: 30px;
+    background-color: purple;
+    color:white;
+    display: flex;
+
+    justify-content: space-between;
+}
+#signal-left{
+    height: 30px;
+    flex: 1;
+}
+
+
+#signal-center{
+    height: 30px;
+    width: 80px;
+    display:flex;
+    align-items:center ;
+    justify-content: flex-start;
+
+}
+#signal-right{
+    height: 30px;
+    width: 60px;
+}
+/*信号*/
+#signal-area{
+    height: 20px;
+    width: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+#signal-area div{
+    margin: 2px;
+    width:4px;
+
+    border-radius: 1px ;
+}
+#signal-area div:nth-child(1)  {
+
+    height:3px;
+
+}
+#signal-area div:nth-child(2)  {
+
+    height:6px;
+
+}
+#signal-area div:nth-child(3)  {
+
+    height:10px;
+
+}#signal-area div:nth-child(4)  {
+
+     height:15px;
+
+ }
+#signal-area div:nth-child(5)  {
+
+    height:20px;
+
+}
+.signal-ok{
+    background-color: white;
+}
+.signal-lose{
+    background-color: grey;
+}
+/*电池 start*/
+#battery{
+    height:16px ;
+    width: 40px;
+    border: solid 1px white;
+    border-radius: 10px;
+
+}
+#battery-core{
+    height:14px;
+    width:38px;
+    background-color: white;
+    margin:1px ;
+    border-radius: 10px;
+}
+
+
+/*电池  end*/
+@keyframes charge {
+
+    0% {
+        width: 1px;
+        background-color: crimson;
+    }
+    20% {
+        width: 6px;
+        background-color: yellowgreen;
+    }
+    80% {
+        width: 24px;
+        background-color: white;
+    }
+    100% {
+        width: 30px;
+        background-color: white;
+    }
+
+}
+
+.charging {
+    animation: charge 6s linear infinite;
+
+}

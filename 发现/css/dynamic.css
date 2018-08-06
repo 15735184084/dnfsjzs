@@ -1,0 +1,95 @@
+#dynamic {
+    width: 100%;
+    flex: 1;
+    background-color: white;
+
+}
+#dynamic1 {
+    width: 100%;
+    height: 150px;
+    border-bottom: 4px solid gainsboro ;
+}
+#dynamic1-top{
+    height: 100px;
+    width: 100%;
+
+
+}
+#dynamic11-top{
+height: 100px;
+    width: 25%;
+    float: left;
+}
+#dynamic12-top{
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+#dynamic13-top{
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+#dynamic14-top{
+   flex: 1;
+    width: 25%;
+    /*float:right;*/
+
+}
+
+.dynamic0{
+    height: 60px;
+    width: 60px;
+    background-size: contain ;
+}
+#dynamic2 {
+    width: 100%;
+    height: 120px;
+    border-bottom: 4px solid gainsboro ;
+
+}
+.name {
+    height: 20px;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid gainsboro ;
+}
+.content {
+    height: 100px;
+    width: 100%;
+}
+.content1 {
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.content2{
+    height: 50px;
+    width: 48%;
+    float: left;
+}
+.content3{
+    height: 35px;
+    width: 35px;
+    background-size: contain ;
+    float: left;
+}
+.content4{
+    height: 50px;
+    flex:1;
+
+}
+#dynamic3{
+    width: 100%;
+    height: 120px;
+
+}
+
+.bottom {
+    height:50px ;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 100;
+    /*float: left;*/
+
+}
